@@ -1,0 +1,61 @@
+.foundry-setting-error {
+  color: var(--text-error);
+  margin-top: 8px;
+}
+
+.foundry-lint-view {
+  padding: 16px;
+}
+
+.foundry-lint-summary {
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
+
+.foundry-lint-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.foundry-lint-table th,
+.foundry-lint-table td {
+  border-bottom: 1px solid var(--background-modifier-border);
+  padding: 8px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.foundry-lint-table th {
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.foundry-badge {
+  border-radius: 4px;
+  color: var(--text-on-accent);
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1;
+  padding: 4px 6px;
+  text-transform: uppercase;
+}
+
+.foundry-badge-info,
+.foundry-badge-low {
+  background: var(--color-blue);
+}
+
+.foundry-badge-warning,
+.foundry-badge-medium {
+  background: var(--color-orange);
+}
+
+.foundry-badge-error,
+.foundry-badge-high {
+  background: var(--color-red);
+}
+
+.foundry-badge-pass {
+  background: var(--color-green);
+}

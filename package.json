@@ -1,0 +1,24 @@
+{
+  "name": "foundry-obsidian-plugin",
+  "version": "0.1.0",
+  "description": "Publish Obsidian notes to Foundry and run Foundry pitch workflows.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs --watch",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production"
+  },
+  "keywords": [
+    "obsidian",
+    "foundry",
+    "pitch"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "builtin-modules": "^3.3.0",
+    "esbuild": "^0.28.0",
+    "obsidian": "^1.5.12",
+    "typescript": "^5.4.2"
+  }
+}

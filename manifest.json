@@ -1,0 +1,10 @@
+{
+  "id": "foundry-obsidian-plugin",
+  "name": "Foundry",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Publish notes to Foundry, run pitch checks, and split ready pitches into briefs.",
+  "author": "",
+  "authorUrl": "",
+  "isDesktopOnly": false
+}
