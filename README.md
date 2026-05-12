@@ -2,6 +2,8 @@
 
 Obsidian plugin for publishing the current note to Foundry as a pitch, running server-side pitch checks, splitting ready pitches into briefs, and linking notes back to Foundry through a `foundry:` frontmatter block.
 
+For day-to-day use — commands, workflows, frontmatter format, and troubleshooting — see [USAGE.md](./USAGE.md).
+
 ## Installation
 
 This plugin is not yet listed in Obsidian's Community Plugins directory, so it must be installed manually (or via BRAT).
@@ -70,4 +72,4 @@ Open the Foundry settings tab and set:
 - Personal API token
 - Default tenant, loaded from `GET /api/plugin/v1/me`
 
-Saving validates the token before persisting settings.
+Saving validates the token before persisting settings. See [USAGE.md](./USAGE.md) for what to do once configured.
